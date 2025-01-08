@@ -10,7 +10,7 @@ RUN mkdir /server
 WORKDIR /server
 # copy all local files in the backend into
 # working directory
-COPY backend/* .
+COPY /* .
 # install all nodejs dependencies
 RUN npm install
 # expose port 3000 of the app
